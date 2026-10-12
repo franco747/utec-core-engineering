@@ -2,8 +2,8 @@
 
 language = "Python"
 version = 3
-ratio = 22/7
-is_valid = 7>=5
+ratio = 22 / 7
+is_valid = 7 >= 5
 
 print(f"Language: {language}")
 print(f"Version: {version}")
