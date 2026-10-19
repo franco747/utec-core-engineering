@@ -6,4 +6,3 @@ def pow(a, b):
     for i in range(b):
         total = total * a
     return total
-print(pow(2, -2))
