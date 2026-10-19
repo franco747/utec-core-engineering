@@ -2,4 +2,4 @@
 def print_last_digit(number):
     digit = abs(number) % 10
     print(digit)
-    return(digit)
+    return digit
