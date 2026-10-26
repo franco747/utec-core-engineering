@@ -14,4 +14,3 @@ def write_file(filename="", text=""):
 
 if __name__ == "__main__":
     write_file("file_1.txt", "hola como va tu dia")
-    
