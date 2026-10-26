@@ -10,6 +10,6 @@ def safe_print_list_integers(my_list=[], x=0):
     print()
     return cont
 
+
 if __name__ == "__main__":
-    print(safe_print_list_integers([1, 2, "hola", 4, 5], 4
-                                ))
+    print(safe_print_list_integers([1, 2, "hola", 4, 5], 4))
