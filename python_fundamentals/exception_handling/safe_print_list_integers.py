@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+def safe_print_list_integers(my_list=[], x=0):
+    cont = 0
+    for i in range(x):
+        try:
+            print(end="" "{:d}".format(my_list[i]))
+            cont += 1
+        except (ValueError, TypeError, IndexError):
+            continue
+    print()
+    return cont
+
+if __name__ == "__main__":
+    print(safe_print_list_integers([1, 2, "hola", 4, 5], 4
+                                ))
