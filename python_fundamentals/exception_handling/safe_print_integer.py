@@ -8,4 +8,4 @@ def safe_print_integer(value):
         return False
 
 if __name__ == "__main__":
-    print(safe_print_integer(2.5))
+    print(safe_print_integer(89))
