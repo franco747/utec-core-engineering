@@ -5,4 +5,3 @@ def raise_exception_msg(message=""):
 
 if __name__ == "__main__":
     raise_exception_msg("hola")
-    
