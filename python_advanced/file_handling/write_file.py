@@ -4,7 +4,7 @@ def write_file(filename="", text=""):
     """Escribe filename y le escribe texto a filename"""
     with open(filename, "w", encoding="UTF-8") as file_1:
         write = file_1.write(text)
-    print(write)
+    print(write, end="")
 
 
 if __name__ == "__main__":
